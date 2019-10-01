@@ -1,0 +1,31 @@
+@import './vars';
+@import './mixins';
+
+body {
+    background: $color;
+    color: #000;
+    user-select: none;
+    box-sizing: border-box;
+
+    h1 {
+        color: #0f0;
+    }
+}
+
+@media (min-width: 1000px) {
+    body {
+        background: #ff0;
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        background: #ff0;
+    }
+}
+
+@media (min-width: 1000px) {
+    h1 {
+        color: #446569;
+    }
+}

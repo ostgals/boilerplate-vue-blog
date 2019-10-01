@@ -3,9 +3,11 @@
 const paths = require('./paths');
 const base = require('./webpack.base.js');
 const merge = require('webpack-merge');
+const webpack = require('webpack');
 
 module.exports = merge(base, {
     mode: 'development',
+    devtool: 'cheap-module-eval-source-map',
     devServer: {
         contentBase: paths.build,
         hot: true,
@@ -18,4 +20,9 @@ module.exports = merge(base, {
             errors: true
         }
     },
+    plugins: [
+        new webpack.SourceMapDevToolPlugin({
+            filename: '[file].map'
+        })
+    ]
 });
