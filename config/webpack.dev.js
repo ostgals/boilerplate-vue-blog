@@ -7,6 +7,7 @@ const merge = require('webpack-merge');
 module.exports = merge(base, {
     mode: 'development',
     devServer: {
+        contentBase: paths.build,
         hot: true,
         port: 3000,
         overlay: {
