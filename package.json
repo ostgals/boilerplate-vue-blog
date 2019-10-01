@@ -17,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/artemiyonuchin/boilerplate-vue-blog/issues"
   },
-  "homepage": "https://github.com/artemiyonuchin/boilerplate-vue-blog#readme"
+  "homepage": "https://github.com/artemiyonuchin/boilerplate-vue-blog#readme",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }
