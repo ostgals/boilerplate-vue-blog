@@ -9,6 +9,9 @@ module.exports = merge(base, {
     devServer: {
         contentBase: paths.build,
         hot: true,
+        // uncomment this lines when use local server with https://
+        // host: 'localhost.dev',
+        // https: true,
         port: 3000,
         overlay: {
             warnings: true,
