@@ -3,7 +3,7 @@
 
 body {
     background: $color;
-    color: #000;
+    color: #000000;
     user-select: none;
     box-sizing: border-box;
 
@@ -14,13 +14,13 @@ body {
 
 @media (min-width: 1000px) {
     body {
-        background: #ff0;
+        background: #ffff00;
     }
 }
 
 @media (min-width: 1400px) {
     body {
-        background: #ff0;
+        background: #ff0000;
     }
 }
 
