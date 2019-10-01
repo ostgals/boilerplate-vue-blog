@@ -1,5 +1,6 @@
 ﻿# Folders
 /node_modules/
+/public_html/
 
 # Files
 package-lock.json

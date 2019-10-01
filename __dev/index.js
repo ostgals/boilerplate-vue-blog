@@ -1,0 +1,2 @@
+// scripts
+import './js/console';
