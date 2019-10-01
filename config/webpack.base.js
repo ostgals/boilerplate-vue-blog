@@ -11,6 +11,19 @@ module.exports = {
         filename: 'assets/js/[name].min.js',
         path: paths.build,
     },
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                // Uncomment if it is necessary
+                // exclude: /node_modules\/(?!(my_main_package\/what_i_need_to_include)\/).*/,
+                use: {
+                    loader: 'babel-loader',
+                },
+            },
+        ]
+    },
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Vue.js based blog',
