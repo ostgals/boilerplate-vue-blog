@@ -1,0 +1,44 @@
+// sass-lint:disable indentation space-after-colon
+// regular
+@font-face {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 400;
+    src:url('/assets/fonts/PTSans-Regular/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/PTSans-Regular/PTSans-Regular.woff') format('woff'),
+        url('/assets/fonts/PTSans-Regular/PTSans-Regular.ttf')  format('truetype'),
+        url('/assets/fonts/PTSans-Regular/PTSans-Regular.svg#PTSans-Regular') format('svg');
+}
+
+// italic
+@font-face {
+    font-family: $font-family;
+    font-style: italic;
+    font-weight: 400;
+    src:url('/assets/fonts/PTSans-Italic/PTSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/PTSans-Italic/PTSans-Italic.woff') format('woff'),
+        url('/assets/fonts/PTSans-Italic/PTSans-Italic.ttf')  format('truetype'),
+        url('/assets/fonts/PTSans-Italic/PTSans-Italic.svg#PTSans-Italic') format('svg');
+}
+
+// bold
+@font-face {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 700;
+    src:url('/assets/fonts/PTSans-Bold/PTSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/PTSans-Bold/PTSans-Bold.woff') format('woff'),
+        url('/assets/fonts/PTSans-Bold/PTSans-Bold.ttf')  format('truetype'),
+        url('/assets/fonts/PTSans-Bold/PTSans-Bold.svg#PTSans-Bold') format('svg');
+}
+
+// bold italic
+@font-face {
+    font-family: $font-family;
+    font-style: italic;
+    font-weight: 700;
+    src:url('/assets/fonts/PTSans-BoldItalic/PTSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/PTSans-BoldItalic/PTSans-BoldItalic.woff') format('woff'),
+        url('/assets/fonts/PTSans-BoldItalic/PTSans-BoldItalic.ttf')  format('truetype'),
+        url('/assets/fonts/PTSans-BoldItalic/PTSans-BoldItalic.svg#PTSans-BoldItalic') format('svg');
+}

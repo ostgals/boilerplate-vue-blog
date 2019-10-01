@@ -63,6 +63,20 @@ module.exports = {
                     }
                 ]
             },
+            {
+                test: /\.(woff(2)?|eot|ttf|otf|svg)$/,
+                loader: 'file-loader',
+                options: {
+                    name: '[name].[ext]',
+                }
+            },
+            {
+                test: /\.(png|jpe?g|gif|svg|ico)$/i,
+                loader: 'file-loader',
+                options: {
+                    name: '[name].[ext]',
+                }
+            },
         ]
     },
     plugins: [

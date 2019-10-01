@@ -12,6 +12,8 @@ module.exports = merge(base, {
         new CleanWebpackPlugin(),
         new CopyWebpackPlugin([
             { from: paths.static, to: paths.build },
+            { from: paths.src + '/fonts', to: paths.build + '/assets/fonts' },
+            { from: paths.src + '/images', to: paths.build + '/images' },
         ]),
     ],
 });
