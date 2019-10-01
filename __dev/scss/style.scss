@@ -1,4 +1,5 @@
 @import './vars';
+@import './theme_rules/colors';
 @import './mixins';
 
 body {
@@ -6,11 +7,22 @@ body {
     color: #000000;
     user-select: none;
     box-sizing: border-box;
+// base rules
+@import './base_rules/base';
+@import './base_rules/special-classes';
+@import './state_rules/display';
 
     h1 {
         color: #0f0;
     }
 }
+// layout
+@import './layout_rules/body';
+@import './layout_rules/header';
+@import './layout_rules/navigation';
+@import './layout_rules/content';
+@import './layout_rules/aside';
+@import './layout_rules/footer';
 
 @media (min-width: 1000px) {
     body {
@@ -29,3 +41,5 @@ body {
         color: #446569;
     }
 }
+// modules
+@import './modules_rules/menu-main';
