@@ -1,0 +1,21 @@
+{
+  "name": "boilerplate-vue-blog",
+  "version": "0.1.0",
+  "description": "Another boilerplate code for personal blog which based on javascript framework Vue.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artemiyonuchin/boilerplate-vue-blog.git"
+  },
+  "keywords": [
+    "webpack",
+    "vuejs",
+    "blog"
+  ],
+  "author": "Onuchin Artemiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artemiyonuchin/boilerplate-vue-blog/issues"
+  },
+  "homepage": "https://github.com/artemiyonuchin/boilerplate-vue-blog#readme"
+}
